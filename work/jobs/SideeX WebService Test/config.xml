@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.2">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/kiam123/SideeXWebServiceTest</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <SideeXJenkinsPlugin plugin="SideeXWebSevicePlugin@1.0">
+      <ipAddress>https://127.0.0.1:50000/</ipAddress>
+      <stateTime>2000</stateTime>
+      <inputsFilePath>D:\web\Selab-web\sideex-webservice-api\inputs-true-case6.zip</inputsFilePath>
+      <reportFolderPath>./</reportFolderPath>
+    </SideeXJenkinsPlugin>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,48 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision fa2fb50a69e42effebc06ae1f2def0d0938ee3b0 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fa2fb50a69e42effebc06ae1f2def0d0938ee3b0 # timeout=10
+Commit message: "upload SideeX Test suite"
+ > git.exe rev-list --no-walk fa2fb50a69e42effebc06ae1f2def0d0938ee3b0 # timeout=10
+{"token":"3fb67d45-9cd3-4ac6-91af-1ea6385fe1e6"}
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is finish
+The test report can be download at https://127.0.0.1:50000/sideex-webservice-reports?token=3fb67d45-9cd3-4ac6-91af-1ea6385fe1e6.
+The log can be download at https://127.0.0.1:50000/sideex-webservice-logs?token=3fb67d45-9cd3-4ac6-91af-1ea6385fe1e6.
++-----------------------------------------------------------------------------------------------------------------+
+|                                                 Report Summarry                                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|          Suites         |                                  Untitled Test Suite                                  |
++-------------------------+---------------------------------------------------------------------------------------+
+|      SideeX Version     |                                         3.3.6                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Browser         |                                  chrome 81.0.4044.129                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Platform        |                                        windows                                        |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Language        |                                       (default)                                       |
++-------------------------+---------------------------------------------------------------------------------------+
+|        Start Time       |                                   20200504 07:49:53                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+|         End Time        |                                   20200504 07:49:56                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+| Passed / Total Suite(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|  Passed / Total Case(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+
+Finished: SUCCESS

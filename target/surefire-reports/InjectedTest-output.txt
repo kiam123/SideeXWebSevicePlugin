@@ -1,0 +1,233 @@
+Running tests for io.jenkins.plugins:SideeXWebSevicePlugin:1.0
+May 08, 2020 11:55:21 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @279ms to org.eclipse.jetty.util.log.Slf4jLog
+May 08, 2020 11:55:21 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Picking up existing exploded jenkins.war at D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:21 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@439a8f59{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,AVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@4a9cc6cb{HTTP/1.1,[http/1.1]}{localhost:64827}
+May 08, 2020 11:55:21 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @833ms
+May 08, 2020 11:55:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 08, 2020 11:55:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 08, 2020 11:55:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 08, 2020 11:55:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 08, 2020 11:55:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 08, 2020 11:55:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 08, 2020 11:55:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@1f12e153{/,null,AVAILABLE}
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@29f0802c{HTTP/1.1,[http/1.1]}{0.0.0.0:64837}
+May 08, 2020 11:55:24 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @3035ms
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@4a9cc6cb{HTTP/1.1,[http/1.1]}{localhost:0}
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@439a8f59{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,UNAVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:25 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 08, 2020 11:55:25 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Running tests for io.jenkins.plugins:SideeXWebSevicePlugin:1.0
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:25 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@3b95a6db{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,AVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@3bb5ceb{HTTP/1.1,[http/1.1]}{localhost:64852}
+May 08, 2020 11:55:25 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @4530ms
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 08, 2020 11:55:25 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@3bb5ceb{HTTP/1.1,[http/1.1]}{localhost:0}
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@3b95a6db{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,UNAVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:26 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 08, 2020 11:55:26 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Running tests for io.jenkins.plugins:SideeXWebSevicePlugin:1.0
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:26 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@3f96f020{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,AVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@1f2f0109{HTTP/1.1,[http/1.1]}{localhost:64868}
+May 08, 2020 11:55:26 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @5799ms
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 08, 2020 11:55:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 08, 2020 11:55:27 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 08, 2020 11:55:27 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 08, 2020 11:55:27 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@1f2f0109{HTTP/1.1,[http/1.1]}{localhost:0}
+May 08, 2020 11:55:27 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 08, 2020 11:55:27 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@3f96f020{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,UNAVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:27 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 08, 2020 11:55:28 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Running tests for io.jenkins.plugins:SideeXWebSevicePlugin:1.0
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:28 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@78fe204a{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,AVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@29050de5{HTTP/1.1,[http/1.1]}{localhost:64884}
+May 08, 2020 11:55:28 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @7010ms
+May 08, 2020 11:55:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 08, 2020 11:55:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 08, 2020 11:55:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 08, 2020 11:55:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 08, 2020 11:55:28 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 08, 2020 11:55:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 08, 2020 11:55:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@29050de5{HTTP/1.1,[http/1.1]}{localhost:0}
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@78fe204a{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,UNAVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:30 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 08, 2020 11:55:30 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Running tests for io.jenkins.plugins:SideeXWebSevicePlugin:1.0
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.5.v20170502
+May 08, 2020 11:55:30 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 600000ms
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@2d7637e6{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,AVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2b44d6d0{HTTP/1.1,[http/1.1]}{localhost:64900}
+May 08, 2020 11:55:30 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @9449ms
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 08, 2020 11:55:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 08, 2020 11:55:31 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 08, 2020 11:55:31 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@2b44d6d0{HTTP/1.1,[http/1.1]}{localhost:0}
+May 08, 2020 11:55:31 PM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
+INFO: Stopped scavenging
+May 08, 2020 11:55:31 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@2d7637e6{/,file:///D:/workspace/SideeXWebSevicePlugin/target/jenkins-for-test/,UNAVAILABLE}{D:\workspace\SideeXWebSevicePlugin\target\jenkins-for-test}
+May 08, 2020 11:55:31 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+May 08, 2020 11:55:31 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped

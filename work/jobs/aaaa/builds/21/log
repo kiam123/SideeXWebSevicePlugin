@@ -1,0 +1,49 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\aaaa
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceInputFile.git # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceInputFile.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceInputFile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision f91a5838aab5ac1ccfefcf78d36ce7318789fc8a (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f f91a5838aab5ac1ccfefcf78d36ce7318789fc8a # timeout=10
+Commit message: "update"
+ > git.exe rev-list --no-walk f91a5838aab5ac1ccfefcf78d36ce7318789fc8a # timeout=10
+{"token":"9ef47f90-a9bc-4972-ac33-350a79ba556e"}
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is finish
+Reports has been generated, you can go to http://127.0.0.1:50000/sideex-webservice-reports?token=9ef47f90-a9bc-4972-ac33-350a79ba556e to download
++-----------------------------------------------------------------------------------------------------------------+
+|                                                 Report Summarry                                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|          Suites         |                                  Untitled Test Suite                                  |
++-------------------------+---------------------------------------------------------------------------------------+
+|      SideeX Version     |                                         3.3.6                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Browser         |                                  chrome 81.0.4044.129                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Platform        |                                        windows                                        |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Language        |                                       (default)                                       |
++-------------------------+---------------------------------------------------------------------------------------+
+|        Start Time       |                                   20200502 12:45:50                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+|         End Time        |                                   20200502 12:45:53                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+| Passed / Total Suite(s) |                                         0 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|  Passed / Total Case(s) |                                         0 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+
+ERROR: Test Case Failed
+Build step 'Execute SideeX Web Testing' changed build result to FAILURE
+Finished: FAILURE

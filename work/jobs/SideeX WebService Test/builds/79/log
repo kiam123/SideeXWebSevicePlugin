@@ -1,0 +1,51 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 2d6f4885f673717549e6fc4ec140b4e027607597 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2d6f4885f673717549e6fc4ec140b4e027607597 # timeout=10
+Commit message: "upload SideeX Test Suite"
+ > git.exe rev-list --no-walk 2d6f4885f673717549e6fc4ec140b4e027607597 # timeout=10
+{"token":"31036256-79d9-4fa8-9a04-d221ae965428"}
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is finish
+The test report can be download at https://127.0.0.1:50000/sideex-webservice-reports?token=31036256-79d9-4fa8-9a04-d221ae965428.
+The log can be download at https://127.0.0.1:50000/sideex-webservice-logs?token=31036256-79d9-4fa8-9a04-d221ae965428.
++-----------------------------------------------------------------------------------------------------------------+
+|                                                 Report Summarry                                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|          Suites         |                                  Untitled Test Suite                                  |
++-------------------------+---------------------------------------------------------------------------------------+
+|      SideeX Version     |                                         3.3.6                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Browser         |                                  chrome 81.0.4044.129                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Platform        |                                        windows                                        |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Language        |                                       (default)                                       |
++-------------------------+---------------------------------------------------------------------------------------+
+|        Start Time       |                                   20200506 13:21:13                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+|         End Time        |                                   20200506 13:21:20                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+| Passed / Total Suite(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|  Passed / Total Case(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+
+Test Case Passed
+Finished: SUCCESS

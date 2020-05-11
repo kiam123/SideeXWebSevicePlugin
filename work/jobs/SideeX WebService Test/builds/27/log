@@ -1,0 +1,23 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 2c692a87f83ac2d593bb0d70250a40ba3fd7fe8c (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2c692a87f83ac2d593bb0d70250a40ba3fd7fe8c # timeout=10
+Commit message: "change config.json setting"
+ > git.exe rev-list --no-walk 2c692a87f83ac2d593bb0d70250a40ba3fd7fe8c # timeout=10
+{"token":"167dc836-1dd1-4c08-983b-2949374eb59b"}
+SideeX Runner state is running
+SideeX Runner state is finish
+The test report can be download at https://140.116.6.51:50000/sideex-webservice-reports?token=167dc836-1dd1-4c08-983b-2949374eb59b.
+The log can be download at https://140.116.6.51:50000/sideex-webservice-logs?token=167dc836-1dd1-4c08-983b-2949374eb59b.
+Test Case Passed
+Finished: SUCCESS

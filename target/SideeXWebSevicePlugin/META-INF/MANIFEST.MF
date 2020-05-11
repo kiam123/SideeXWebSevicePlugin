@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Built-By: kiam0
+Created-By: Apache Maven
+Build-Jdk: 14
+Extension-Name: SideeXWebSevicePlugin
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: SideeXWebSevicePlugin
+Implementation-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: SideeXWebSevicePlugin
+Long-Name: SideeX Web Service Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/SideeXWebSevice
+ Plugin
+

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="InjectedTest" time="10.478" tests="25" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="hudson.udp" value="-1"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\workspace\SideeXWebSevicePlugin\target\test-classes;D:\workspace\SideeXWebSevicePlugin\target\classes;C:\Users\kiam0\.m2\repository\com\github\spotbugs\spotbugs-annotations\3.1.12\spotbugs-annotations-3.1.12.jar;C:\Users\kiam0\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kiam0\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\kiam0\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\kiam0\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-core\2.164.1\jenkins-core-2.164.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\plugins\icon-shim\icon-set\1.0.5\icon-set-1.0.5.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\remoting\3.29\remoting-3.29.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\constant-pool-scanner\1.2\constant-pool-scanner-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\cli\2.164.1\cli-2.164.1.jar;C:\Users\kiam0\.m2\repository\net\i2p\crypto\eddsa\0.3.0\eddsa-0.3.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\version-number\1.6\version-number-1.6.jar;C:\Users\kiam0\.m2\repository\com\google\code\findbugs\annotations\3.0.0\annotations-3.0.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\crypto-util\1.1\crypto-util-1.1.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\jtidy\4aug2000r7-dev-hudson-1\jtidy-4aug2000r7-dev-hudson-1.jar;C:\Users\kiam0\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\kiam0\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kiam0\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kiam0\.m2\repository\org\jruby\ext\posix\jna-posix\1.0.3-jenkins-1\jna-posix-1.0.3-jenkins-1.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-posix\3.0.45\jnr-posix-3.0.45.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-ffi\2.1.8\jnr-ffi-2.1.8.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jffi\1.2.17\jffi-1.2.17.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jffi\1.2.16\jffi-1.2.16-native.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-commons\5.0.3\asm-commons-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-constants\0.9.9\jnr-constants-0.9.9.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\trilead-putty-extension\1.2\trilead-putty-extension-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\trilead-ssh2\build-217-jenkins-14\trilead-ssh2-build-217-jenkins-14.jar;C:\Users\kiam0\.m2\repository\org\connectbot\jbcrypt\jbcrypt\1.0.0\jbcrypt-1.0.0.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-groovy\1.256\stapler-groovy-1.256.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-jelly\1.256\stapler-jelly-1.256.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20120928\commons-jelly-1.1-jenkins-20120928.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\dom4j\dom4j\1.6.1-jenkins-4\dom4j-1.6.1-jenkins-4.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-jrebel\1.256\stapler-jrebel-1.256.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler\1.256\stapler-1.256.jar;C:\Users\kiam0\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\kiam0\.m2\repository\commons-discovery\commons-discovery\0.4\commons-discovery-0.4.jar;C:\Users\kiam0\.m2\repository\org\jvnet\tiger-types\2.2\tiger-types-2.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\asm5\5.0.1\asm5-5.0.1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\windows-package-checker\1.2\windows-package-checker-1.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-zeroclipboard\1.3.5-1\stapler-adjunct-zeroclipboard-1.3.5-1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.5\stapler-adjunct-timeline-1.5.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar;C:\Users\kiam0\.m2\repository\io\jenkins\stapler\jenkins-stapler-support\1.0\jenkins-stapler-support-1.0.jar;C:\Users\kiam0\.m2\repository\com\infradna\tool\bridge-method-annotation\1.13\bridge-method-annotation-1.13.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-2\json-lib-2.4-jenkins-2.jar;C:\Users\kiam0\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\kiam0\.m2\repository\commons-httpclient\commons-httpclient\3.1-jenkins-1\commons-httpclient-3.1-jenkins-1.jar;C:\Users\kiam0\.m2\repository\args4j\args4j\2.0.31\args4j-2.0.31.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\annotation-indexer\1.12\annotation-indexer-1.12.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\bytecode-compatibility-transformer\2.0-beta-2\bytecode-compatibility-transformer-2.0-beta-2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\asm6\6.2\asm6-6.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\task-reactor\1.5\task-reactor-1.5.jar;C:\Users\kiam0\.m2\repository\org\jvnet\localizer\localizer\1.24\localizer-1.24.jar;C:\Users\kiam0\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\xstream\1.4.7-jenkins-1\xstream-1.4.7-jenkins-1.jar;C:\Users\kiam0\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar;C:\Users\kiam0\.m2\repository\net\sf\kxml\kxml2\2.3.0\kxml2-2.3.0.jar;C:\Users\kiam0\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar;C:\Users\kiam0\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar;C:\Users\kiam0\.m2\repository\org\apache\ant\ant\1.9.2\ant-1.9.2.jar;C:\Users\kiam0\.m2\repository\org\apache\ant\ant-launcher\1.9.2\ant-launcher-1.9.2.jar;C:\Users\kiam0\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kiam0\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\kiam0\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\kiam0\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-compress\1.10\commons-compress-1.10.jar;C:\Users\kiam0\.m2\repository\javax\mail\mail\1.4.4\mail-1.4.4.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\activation\1.1.1-hudson-1\activation-1.1.1-hudson-1.jar;C:\Users\kiam0\.m2\repository\jaxen\jaxen\1.1-beta-11\jaxen-1.1-beta-11.jar;C:\Users\kiam0\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar;C:\Users\kiam0\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar;C:\Users\kiam0\.m2\repository\org\acegisecurity\acegi-security\1.0.7\acegi-security-1.0.7.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-jdbc\1.2.9\spring-jdbc-1.2.9.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-dao\1.2.9\spring-dao-1.2.9.jar;C:\Users\kiam0\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\kiam0\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kiam0\.m2\repository\org\codehaus\groovy\groovy-all\2.4.12\groovy-all-2.4.12.jar;C:\Users\kiam0\.m2\repository\jline\jline\2.12\jline-2.12.jar;C:\Users\kiam0\.m2\repository\org\fusesource\jansi\jansi\1.11\jansi-1.11.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-webmvc\2.5.6.SEC03\spring-webmvc-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-beans\2.5.6.SEC03\spring-beans-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-context\2.5.6.SEC03\spring-context-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-context-support\2.5.6.SEC03\spring-context-support-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-web\2.5.6.SEC03\spring-web-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-core\2.5.6.SEC03\spring-core-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-aop\2.5.6.SEC03\spring-aop-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\javax\servlet\jsp\jstl\javax.servlet.jsp.jstl-api\1.2.1\javax.servlet.jsp.jstl-api-1.2.1.jar;C:\Users\kiam0\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar;C:\Users\kiam0\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kiam0\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar;C:\Users\kiam0\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kiam0\.m2\repository\org\jvnet\winp\winp\1.27\winp-1.27.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\memory-monitor\1.9\memory-monitor-1.9.jar;C:\Users\kiam0\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.9\wstx-asl-3.2.9.jar;C:\Users\kiam0\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\jmdns\3.4.0-jenkins-3\jmdns-3.4.0-jenkins-3.jar;C:\Users\kiam0\.m2\repository\net\java\dev\jna\jna\4.5.2\jna-4.5.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\akuma\1.10\akuma-1.10.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\libpam4j\1.11\libpam4j-1.11.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\libzfs\0.8\libzfs-0.8.jar;C:\Users\kiam0\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar;C:\Users\kiam0\.m2\repository\net\java\sezpoz\sezpoz\1.13\sezpoz-1.13.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.6-kohsuke-1\j-interop-2.0.6-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.6-kohsuke-1\j-interopdeps-2.0.6-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\samba\jcifs\jcifs\1.2.19\jcifs-1.2.19.jar;C:\Users\kiam0\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\symbol-annotation\1.1\symbol-annotation-1.1.jar;C:\Users\kiam0\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\kiam0\.m2\repository\commons-fileupload\commons-fileupload\1.3.1-jenkins-2\commons-fileupload-1.3.1-jenkins-2.jar;C:\Users\kiam0\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar;C:\Users\kiam0\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-war\2.164.1\jenkins-war-2.164.1.war;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\instance-identity\2.2\instance-identity-2.2.jar;C:\Users\kiam0\.m2\repository\io\github\stephenc\crypto\self-signed-cert-generator\1.0.0\self-signed-cert-generator-1.0.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\ssh-cli-auth\1.4\ssh-cli-auth-1.4.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\slave-installer\1.6\slave-installer-1.6.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\windows-slave-installer\1.10.0\windows-slave-installer-1.10.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\launchd-slave-installer\1.2\launchd-slave-installer-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\upstart-slave-installer\1.1\upstart-slave-installer-1.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\systemd-slave-installer\1.1\systemd-slave-installer-1.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\sshd\2.6\sshd-2.6.jar;C:\Users\kiam0\.m2\repository\org\apache\sshd\sshd-core\1.7.0\sshd-core-1.7.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\jquery-detached\1.2.1\jquery-detached-1.2.1-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\bootstrap\1.3.2\bootstrap-1.3.2-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\jquery-detached\1.2\jquery-detached-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\handlebars\1.1.1\handlebars-1.1.1-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2.55\jenkins-test-harness-2.55.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.5.v20170502\jetty-webapp-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.5.v20170502\jetty-xml-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.5.v20170502\jetty-servlet-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-security\9.4.5.v20170502\jetty-security-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-server\9.4.5.v20170502\jetty-server-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-test-harness-htmlunit\2.31-2\jenkins-test-harness-htmlunit-2.31-2.jar;C:\Users\kiam0\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\kiam0\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\kiam0\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.10.v20180503\websocket-client-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.10.v20180503\websocket-common-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.10.v20180503\websocket-api-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\embedded-rhino-debugger\1.2\embedded-rhino-debugger-1.2.jar;C:\Users\kiam0\.m2\repository\io\jenkins\lib\support-log-formatter\1.0\support-log-formatter-1.0.jar;C:\Users\kiam0\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE802\org-netbeans-insane-RELEASE802.jar;C:\Users\kiam0\.m2\repository\org\openjdk\jmh\jmh-core\1.21\jmh-core-1.21.jar;C:\Users\kiam0\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\kiam0\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.21\jmh-generator-annprocess-1.21.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\test-annotations\1.3\test-annotations-1.3.jar;C:\Users\kiam0\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kiam0\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kiam0\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\slf4j-jdk14\1.7.25\slf4j-jdk14-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\access-modifier-annotation\1.16\access-modifier-annotation-1.16.jar;C:\Users\kiam0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="sun.java.command" value="C:\Users\kiam0\AppData\Local\Temp\surefire7710003952409348733\surefirebooter3755713677631188232.jar C:\Users\kiam0\AppData\Local\Temp\surefire7710003952409348733 2020-05-08T23-55-20_846-jvmRun1 surefire7657799726456719480tmp surefire_08103910965324397895tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\workspace\SideeXWebSevicePlugin\target\test-classes;D:\workspace\SideeXWebSevicePlugin\target\classes;C:\Users\kiam0\.m2\repository\com\github\spotbugs\spotbugs-annotations\3.1.12\spotbugs-annotations-3.1.12.jar;C:\Users\kiam0\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kiam0\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\kiam0\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\kiam0\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-core\2.164.1\jenkins-core-2.164.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\plugins\icon-shim\icon-set\1.0.5\icon-set-1.0.5.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\remoting\3.29\remoting-3.29.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\constant-pool-scanner\1.2\constant-pool-scanner-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\cli\2.164.1\cli-2.164.1.jar;C:\Users\kiam0\.m2\repository\net\i2p\crypto\eddsa\0.3.0\eddsa-0.3.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\version-number\1.6\version-number-1.6.jar;C:\Users\kiam0\.m2\repository\com\google\code\findbugs\annotations\3.0.0\annotations-3.0.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\crypto-util\1.1\crypto-util-1.1.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\jtidy\4aug2000r7-dev-hudson-1\jtidy-4aug2000r7-dev-hudson-1.jar;C:\Users\kiam0\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\kiam0\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kiam0\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kiam0\.m2\repository\org\jruby\ext\posix\jna-posix\1.0.3-jenkins-1\jna-posix-1.0.3-jenkins-1.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-posix\3.0.45\jnr-posix-3.0.45.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-ffi\2.1.8\jnr-ffi-2.1.8.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jffi\1.2.17\jffi-1.2.17.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jffi\1.2.16\jffi-1.2.16-native.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-commons\5.0.3\asm-commons-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;C:\Users\kiam0\.m2\repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar;C:\Users\kiam0\.m2\repository\com\github\jnr\jnr-constants\0.9.9\jnr-constants-0.9.9.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\trilead-putty-extension\1.2\trilead-putty-extension-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\trilead-ssh2\build-217-jenkins-14\trilead-ssh2-build-217-jenkins-14.jar;C:\Users\kiam0\.m2\repository\org\connectbot\jbcrypt\jbcrypt\1.0.0\jbcrypt-1.0.0.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-groovy\1.256\stapler-groovy-1.256.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-jelly\1.256\stapler-jelly-1.256.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20120928\commons-jelly-1.1-jenkins-20120928.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\dom4j\dom4j\1.6.1-jenkins-4\dom4j-1.6.1-jenkins-4.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-jrebel\1.256\stapler-jrebel-1.256.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler\1.256\stapler-1.256.jar;C:\Users\kiam0\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\kiam0\.m2\repository\commons-discovery\commons-discovery\0.4\commons-discovery-0.4.jar;C:\Users\kiam0\.m2\repository\org\jvnet\tiger-types\2.2\tiger-types-2.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\asm5\5.0.1\asm5-5.0.1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\windows-package-checker\1.2\windows-package-checker-1.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-zeroclipboard\1.3.5-1\stapler-adjunct-zeroclipboard-1.3.5-1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.5\stapler-adjunct-timeline-1.5.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar;C:\Users\kiam0\.m2\repository\io\jenkins\stapler\jenkins-stapler-support\1.0\jenkins-stapler-support-1.0.jar;C:\Users\kiam0\.m2\repository\com\infradna\tool\bridge-method-annotation\1.13\bridge-method-annotation-1.13.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-2\json-lib-2.4-jenkins-2.jar;C:\Users\kiam0\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\kiam0\.m2\repository\commons-httpclient\commons-httpclient\3.1-jenkins-1\commons-httpclient-3.1-jenkins-1.jar;C:\Users\kiam0\.m2\repository\args4j\args4j\2.0.31\args4j-2.0.31.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\annotation-indexer\1.12\annotation-indexer-1.12.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\bytecode-compatibility-transformer\2.0-beta-2\bytecode-compatibility-transformer-2.0-beta-2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\asm6\6.2\asm6-6.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\task-reactor\1.5\task-reactor-1.5.jar;C:\Users\kiam0\.m2\repository\org\jvnet\localizer\localizer\1.24\localizer-1.24.jar;C:\Users\kiam0\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\xstream\1.4.7-jenkins-1\xstream-1.4.7-jenkins-1.jar;C:\Users\kiam0\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar;C:\Users\kiam0\.m2\repository\net\sf\kxml\kxml2\2.3.0\kxml2-2.3.0.jar;C:\Users\kiam0\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar;C:\Users\kiam0\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar;C:\Users\kiam0\.m2\repository\org\apache\ant\ant\1.9.2\ant-1.9.2.jar;C:\Users\kiam0\.m2\repository\org\apache\ant\ant-launcher\1.9.2\ant-launcher-1.9.2.jar;C:\Users\kiam0\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kiam0\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\kiam0\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\kiam0\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-compress\1.10\commons-compress-1.10.jar;C:\Users\kiam0\.m2\repository\javax\mail\mail\1.4.4\mail-1.4.4.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\activation\1.1.1-hudson-1\activation-1.1.1-hudson-1.jar;C:\Users\kiam0\.m2\repository\jaxen\jaxen\1.1-beta-11\jaxen-1.1-beta-11.jar;C:\Users\kiam0\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar;C:\Users\kiam0\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar;C:\Users\kiam0\.m2\repository\org\acegisecurity\acegi-security\1.0.7\acegi-security-1.0.7.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-jdbc\1.2.9\spring-jdbc-1.2.9.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-dao\1.2.9\spring-dao-1.2.9.jar;C:\Users\kiam0\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\kiam0\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kiam0\.m2\repository\org\codehaus\groovy\groovy-all\2.4.12\groovy-all-2.4.12.jar;C:\Users\kiam0\.m2\repository\jline\jline\2.12\jline-2.12.jar;C:\Users\kiam0\.m2\repository\org\fusesource\jansi\jansi\1.11\jansi-1.11.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-webmvc\2.5.6.SEC03\spring-webmvc-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-beans\2.5.6.SEC03\spring-beans-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-context\2.5.6.SEC03\spring-context-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-context-support\2.5.6.SEC03\spring-context-support-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-web\2.5.6.SEC03\spring-web-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-core\2.5.6.SEC03\spring-core-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\org\springframework\spring-aop\2.5.6.SEC03\spring-aop-2.5.6.SEC03.jar;C:\Users\kiam0\.m2\repository\javax\servlet\jsp\jstl\javax.servlet.jsp.jstl-api\1.2.1\javax.servlet.jsp.jstl-api-1.2.1.jar;C:\Users\kiam0\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar;C:\Users\kiam0\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kiam0\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar;C:\Users\kiam0\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kiam0\.m2\repository\org\jvnet\winp\winp\1.27\winp-1.27.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\memory-monitor\1.9\memory-monitor-1.9.jar;C:\Users\kiam0\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.9\wstx-asl-3.2.9.jar;C:\Users\kiam0\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\jmdns\3.4.0-jenkins-3\jmdns-3.4.0-jenkins-3.jar;C:\Users\kiam0\.m2\repository\net\java\dev\jna\jna\4.5.2\jna-4.5.2.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\akuma\1.10\akuma-1.10.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\libpam4j\1.11\libpam4j-1.11.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\libzfs\0.8\libzfs-0.8.jar;C:\Users\kiam0\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar;C:\Users\kiam0\.m2\repository\net\java\sezpoz\sezpoz\1.13\sezpoz-1.13.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.6-kohsuke-1\j-interop-2.0.6-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.6-kohsuke-1\j-interopdeps-2.0.6-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\samba\jcifs\jcifs\1.2.19\jcifs-1.2.19.jar;C:\Users\kiam0\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\symbol-annotation\1.1\symbol-annotation-1.1.jar;C:\Users\kiam0\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\kiam0\.m2\repository\commons-fileupload\commons-fileupload\1.3.1-jenkins-2\commons-fileupload-1.3.1-jenkins-2.jar;C:\Users\kiam0\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar;C:\Users\kiam0\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-war\2.164.1\jenkins-war-2.164.1.war;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\instance-identity\2.2\instance-identity-2.2.jar;C:\Users\kiam0\.m2\repository\io\github\stephenc\crypto\self-signed-cert-generator\1.0.0\self-signed-cert-generator-1.0.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\ssh-cli-auth\1.4\ssh-cli-auth-1.4.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\slave-installer\1.6\slave-installer-1.6.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\windows-slave-installer\1.10.0\windows-slave-installer-1.10.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\launchd-slave-installer\1.2\launchd-slave-installer-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\upstart-slave-installer\1.1\upstart-slave-installer-1.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\systemd-slave-installer\1.1\systemd-slave-installer-1.1.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\modules\sshd\2.6\sshd-2.6.jar;C:\Users\kiam0\.m2\repository\org\apache\sshd\sshd-core\1.7.0\sshd-core-1.7.0.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\jquery-detached\1.2.1\jquery-detached-1.2.1-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\bootstrap\1.3.2\bootstrap-1.3.2-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\jquery-detached\1.2\jquery-detached-1.2.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\ui\handlebars\1.1.1\handlebars-1.1.1-core-assets.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2.55\jenkins-test-harness-2.55.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.5.v20170502\jetty-webapp-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.5.v20170502\jetty-xml-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.5.v20170502\jetty-servlet-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-security\9.4.5.v20170502\jetty-security-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-server\9.4.5.v20170502\jetty-server-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\kiam0\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\main\jenkins-test-harness-htmlunit\2.31-2\jenkins-test-harness-htmlunit-2.31-2.jar;C:\Users\kiam0\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\kiam0\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\kiam0\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.10.v20180503\websocket-client-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.10.v20180503\websocket-common-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.10.v20180503\websocket-api-9.4.10.v20180503.jar;C:\Users\kiam0\.m2\repository\org\jvnet\hudson\embedded-rhino-debugger\1.2\embedded-rhino-debugger-1.2.jar;C:\Users\kiam0\.m2\repository\io\jenkins\lib\support-log-formatter\1.0\support-log-formatter-1.0.jar;C:\Users\kiam0\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE802\org-netbeans-insane-RELEASE802.jar;C:\Users\kiam0\.m2\repository\org\openjdk\jmh\jmh-core\1.21\jmh-core-1.21.jar;C:\Users\kiam0\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\kiam0\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\kiam0\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.21\jmh-generator-annprocess-1.21.jar;C:\Users\kiam0\.m2\repository\org\jenkins-ci\test-annotations\1.3\test-annotations-1.3.jar;C:\Users\kiam0\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kiam0\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kiam0\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\slf4j\slf4j-jdk14\1.7.25\slf4j-jdk14-1.7.25.jar;C:\Users\kiam0\.m2\repository\org\kohsuke\access-modifier-annotation\1.16\access-modifier-annotation-1.16.jar;C:\Users\kiam0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kiam0"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\workspace\SideeXWebSevicePlugin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\kiam0\AppData\Local\Temp\surefire7710003952409348733\surefirebooter3755713677631188232.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="user.name" value="kiam0"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kiam0\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\workspace\SideeXWebSevicePlugin\target/tmp"/>
+    <property name="java.version" value="14"/>
+    <property name="user.dir" value="D:\workspace\SideeXWebSevicePlugin"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\kiam0\anaconda3;C:\Users\kiam0\anaconda3\Library\mingw-w64\bin;C:\Users\kiam0\anaconda3\Library\usr\bin;C:\Users\kiam0\anaconda3\Library\bin;C:\Users\kiam0\anaconda3\Scripts;C:\Users\kiam0\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\kiam0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kiam0\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;;C:\Program Files\Java\jdk-14\bin;C:\Program Files\Java\jdk-14\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.023"/>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.023"/>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.023"/>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.023"/>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.023"/>
+  <testcase name="SideeXJenkinsPlugin\config.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.108">
+    <failure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.jvnet.hudson.test.junit.GroupedTest.runGroupedTests(GroupedTest.java:67)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.doTests(JellyTestSuiteBuilder.java:152)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.access$100(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite$2.call(JellyTestSuiteBuilder.java:160)
+	at org.jvnet.hudson.test.HudsonTestCase$WebClient$5.run(HudsonTestCase.java:1514)
+	at org.jvnet.hudson.test.ClosureExecuterAction.doIndex(ClosureExecuterAction.java:53)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:728)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:396)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:408)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:212)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:145)
+	at org.kohsuke.stapler.IndexDispatcher.dispatch(IndexDispatcher.java:27)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:458)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></failure>
+    <rerunFailure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly" type="java.lang.AssertionError">
+      <stackTrace><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.jvnet.hudson.test.junit.GroupedTest.runGroupedTests(GroupedTest.java:67)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.doTests(JellyTestSuiteBuilder.java:152)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.access$100(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite$2.call(JellyTestSuiteBuilder.java:160)
+	at org.jvnet.hudson.test.HudsonTestCase$WebClient$5.run(HudsonTestCase.java:1514)
+	at org.jvnet.hudson.test.ClosureExecuterAction.doIndex(ClosureExecuterAction.java:53)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:728)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:396)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:408)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:212)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:145)
+	at org.kohsuke.stapler.IndexDispatcher.dispatch(IndexDispatcher.java:27)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:458)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></stackTrace>
+    </rerunFailure>
+    <rerunFailure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly" type="java.lang.AssertionError">
+      <stackTrace><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.jvnet.hudson.test.junit.GroupedTest.runGroupedTests(GroupedTest.java:67)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.doTests(JellyTestSuiteBuilder.java:152)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.access$100(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite$2.call(JellyTestSuiteBuilder.java:160)
+	at org.jvnet.hudson.test.HudsonTestCase$WebClient$5.run(HudsonTestCase.java:1514)
+	at org.jvnet.hudson.test.ClosureExecuterAction.doIndex(ClosureExecuterAction.java:53)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:728)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:396)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:408)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:212)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:145)
+	at org.kohsuke.stapler.IndexDispatcher.dispatch(IndexDispatcher.java:27)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:458)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></stackTrace>
+    </rerunFailure>
+    <rerunFailure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly" type="java.lang.AssertionError">
+      <stackTrace><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.jvnet.hudson.test.junit.GroupedTest.runGroupedTests(GroupedTest.java:67)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.doTests(JellyTestSuiteBuilder.java:152)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.access$100(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite$2.call(JellyTestSuiteBuilder.java:160)
+	at org.jvnet.hudson.test.HudsonTestCase$WebClient$5.run(HudsonTestCase.java:1514)
+	at org.jvnet.hudson.test.ClosureExecuterAction.doIndex(ClosureExecuterAction.java:53)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:728)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:396)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:408)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:212)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:145)
+	at org.kohsuke.stapler.IndexDispatcher.dispatch(IndexDispatcher.java:27)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:458)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></stackTrace>
+    </rerunFailure>
+    <rerunFailure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly" type="java.lang.AssertionError">
+      <stackTrace><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/D:/workspace/SideeXWebSevicePlugin/target/classes/SideeXJenkinsPlugin/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.jvnet.hudson.test.junit.GroupedTest.runGroupedTests(GroupedTest.java:67)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.doTests(JellyTestSuiteBuilder.java:152)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.access$100(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite$2.call(JellyTestSuiteBuilder.java:160)
+	at org.jvnet.hudson.test.HudsonTestCase$WebClient$5.run(HudsonTestCase.java:1514)
+	at org.jvnet.hudson.test.ClosureExecuterAction.doIndex(ClosureExecuterAction.java:53)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:728)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:396)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:408)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:212)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:145)
+	at org.kohsuke.stapler.IndexDispatcher.dispatch(IndexDispatcher.java:27)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.MetaClass$9.dispatch(MetaClass.java:458)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:739)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:870)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></stackTrace>
+    </rerunFailure>
+  </testcase>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.008"/>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.008"/>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.008"/>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.008"/>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.008"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+</testsuite>

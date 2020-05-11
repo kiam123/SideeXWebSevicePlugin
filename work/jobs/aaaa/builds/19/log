@@ -1,0 +1,7 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\aaaa
+WTF::: false
+D:\workspace\SideeXWebSevicePlugin\work\workspace\aaaa
+ERROR: Specified test suites file path 'D:\workspace\SideeXWebSevicePlugin\work\workspace\aaaa' does not exist.
+Build step 'Execute SideeX Web Testing' changed build result to FAILURE
+Finished: FAILURE

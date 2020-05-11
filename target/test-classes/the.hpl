@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: SideeXWebSevicePlugin
+Long-Name: SideeX Web Service Plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/SideeXWebSevice
+ Plugin
+Libraries: D:\workspace\SideeXWebSevicePlugin\src\main\resources,D:\wo
+ rkspace\SideeXWebSevicePlugin\target\classes
+Resource-Path: D:\workspace\SideeXWebSevicePlugin\src\main\webapp
+

@@ -1,0 +1,11 @@
+commit 2c692a87f83ac2d593bb0d70250a40ba3fd7fe8c
+tree e5e3b1c3ab8a55b81b729741c1cee484b8cc10dd
+parent fa2fb50a69e42effebc06ae1f2def0d0938ee3b0
+author kr-lee <kiam125@gmail.com> 2020-05-04 12:59:57 +0800
+committer kr-lee <kiam125@gmail.com> 2020-05-04 12:59:57 +0800
+
+    change config.json setting
+
+
+:100644 100644 51c29637d7716196f59f7c0d3791834ee50b0eae 465625abd2a4f423a761ab63c2eb22fd8fcc333f M	inputs.zip
+:100644 100644 c0901d218c7e9d0ed3ea5a5bb4bb337a835ea38a a879dfcf17b4d207cdf2360c5ef67d5d6c742b07 M	inputs/config.json

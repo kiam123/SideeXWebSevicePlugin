@@ -1,0 +1,23 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 2d6f4885f673717549e6fc4ec140b4e027607597 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2d6f4885f673717549e6fc4ec140b4e027607597 # timeout=10
+Commit message: "upload SideeX Test Suite"
+ > git.exe rev-list --no-walk 6ab4665be8e03e67a90a73365e479ad393ba3474 # timeout=10
+{"token":"15a3e9b3-b026-464b-bbf1-a3b364258a74"}
+SideeX Runner state is finish
+The test report can be download at https://127.0.0.1:50000/sideex-webservice-reports?token=15a3e9b3-b026-464b-bbf1-a3b364258a74.
+The log can be download at https://127.0.0.1:50000/sideex-webservice-logs?token=15a3e9b3-b026-464b-bbf1-a3b364258a74.
+ERROR: Test Case Failed
+Build step 'Execute SideeX Web Testing' changed build result to FAILURE
+Finished: FAILURE

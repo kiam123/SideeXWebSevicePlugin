@@ -1,0 +1,54 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe init D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX WebService Test # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceTest # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceTest
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceTest +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision fa2fb50a69e42effebc06ae1f2def0d0938ee3b0 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fa2fb50a69e42effebc06ae1f2def0d0938ee3b0 # timeout=10
+Commit message: "upload SideeX Test suite"
+First time build. Skipping changelog.
+{"token":"90cf08d7-eaea-4192-87d2-b6fea10110b4"}
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is running
+SideeX Runner state is finish
+The test report can be download at https://127.0.0.1:50000/sideex-webservice-reports?token=90cf08d7-eaea-4192-87d2-b6fea10110b4.
+The log can be download at https://127.0.0.1:50000/sideex-webservice-logs?token=90cf08d7-eaea-4192-87d2-b6fea10110b4.
++-----------------------------------------------------------------------------------------------------------------+
+|                                                 Report Summarry                                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|          Suites         |                                  Untitled Test Suite                                  |
++-------------------------+---------------------------------------------------------------------------------------+
+|      SideeX Version     |                                         3.3.6                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Browser         |                                  chrome 81.0.4044.129                                 |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Platform        |                                        windows                                        |
++-------------------------+---------------------------------------------------------------------------------------+
+|         Language        |                                       (default)                                       |
++-------------------------+---------------------------------------------------------------------------------------+
+|        Start Time       |                                   20200504 07:36:36                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+|         End Time        |                                   20200504 07:36:40                                   |
++-------------------------+---------------------------------------------------------------------------------------+
+| Passed / Total Suite(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+|  Passed / Total Case(s) |                                         1 / 1                                         |
++-------------------------+---------------------------------------------------------------------------------------+
+
+Finished: SUCCESS

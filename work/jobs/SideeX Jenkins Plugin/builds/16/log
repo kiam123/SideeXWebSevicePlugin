@@ -1,0 +1,32 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX Jenkins Plugin
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceInputFile.git # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceInputFile.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceInputFile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision c7b11c82785279e5ccbf4688eb0d40d3c1a9b01d (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c7b11c82785279e5ccbf4688eb0d40d3c1a9b01d # timeout=10
+Commit message: "update"
+ > git.exe rev-list --no-walk c7b11c82785279e5ccbf4688eb0d40d3c1a9b01d # timeout=10
+ERROR: Build step failed with exception
+net.sf.json.JSONException: JSONObject["token"] not found.
+	at net.sf.json.JSONObject.getString(JSONObject.java:2040)
+	at SideeXJenkinsPlugin.perform(SideeXJenkinsPlugin.java:72)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:85)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Execute SideeX Web Testing' marked build as failure
+Finished: FAILURE

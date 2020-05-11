@@ -1,0 +1,21 @@
+Started by user unknown or anonymous
+Building in workspace D:\workspace\SideeXWebSevicePlugin\work\workspace\SideeX Jenkins Plugin
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/kiam123/SideeXWebServiceInputFile.git # timeout=10
+Fetching upstream changes from https://github.com/kiam123/SideeXWebServiceInputFile.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/kiam123/SideeXWebServiceInputFile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 5c60e6198fdb881d56715a4b13151fed9968c02e (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 5c60e6198fdb881d56715a4b13151fed9968c02e # timeout=10
+Commit message: "update"
+ > git.exe rev-list --no-walk 5c60e6198fdb881d56715a4b13151fed9968c02e # timeout=10
+{"token":"55911726-8eb4-466c-befd-ad1cc29d2313"}
+SideeX Runner state is running
+SideeX Runner state is finish
+Reports has been generated, you can go to http://127.0.0.1:50000/sideex-webservice-reports?token=55911726-8eb4-466c-befd-ad1cc29d2313 to download
+Finished: SUCCESS
